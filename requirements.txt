@@ -1,0 +1,5 @@
+evohomeclient
+python-forecastio
+influxdb
+plotly
+

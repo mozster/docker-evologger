@@ -1,0 +1,10 @@
+version: '2'
+services:
+  evologger:
+    build: 
+      context: .
+    image: evologger
+    volumes:
+     - ./config/config.ini:/evologger-master/config.ini
+     - ./output:/output
+    restart: always
